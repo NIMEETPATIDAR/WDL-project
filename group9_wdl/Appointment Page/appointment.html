@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <style>
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: red
+        }
+
+
+        .navbar li.active a {
+
+            color: red;
+        }
+
+
+
+
+
+
+
+
+
+
+        .boxa {
+            /*border: 4px solid black;*/
+
+            margin: 1px 0px;
+            background-color: rgb(195, 203, 207);
+            padding: 23px;
+            width: 30%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .boxb {
+            /*border: 4px solid black;*/
+
+            margin: 1px 0px;
+            // background-color: rgb(125, 181, 207);
+            background-image: url(app1.jpg);
+            padding: 23px;
+            width: 69.5%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .container {
+            margin: auto;
+            width: 1200px;
+            background-color: black;
+
+        }
+
+
+        .form-group input {
+
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .form-group select {
+
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+
+
+
+
+        footer {
+            background-color: #000000;
+            padding: 2px;
+            text-align: center;
+            color: white;
+        }
+
+
+        #foot {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #foot td,
+        #foot th {
+            color: white;
+
+
+        }
+
+
+
+        #foot th {
+
+            text-align: center;
+            font-size: 18px;
+            padding-top: 15px;
+            padding-bottom: 30px;
+            padding-left: 35px;
+            padding-right: 30px;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <img src="C:\group9_wdl\images\logo1.png" width=80 height=100 align=left top>
+    <img src="C:\group9_wdl\n2\logo.png" alt="hopital logo" align=left top>
+    <img src="C:\group9_wdl\images\logo7.jpg" width=130 height=100 align=right top>
+    <u>
+        <h1 style="color: blue;text-align: center;font-size:60px ;">OMEGA HOSPITAL</h1>
+    </u>
+    <br>
+    <nav class="navbar">
+
+        <ul>
+            <li><a href="C:\group9_wdl\home page\homepage.html">HOME</a></li>
+            <li><a href="C:\group9_wdl\code\about us.html">ABOUT US</a></li>
+            <li><a href="C:/group9_wdl/nikhil/history.html">HISTORY</a></li>
+            <li><a href="C:\group9_wdl\meals\meals.html">MEALS</a></li>
+            <li class="active"><a href="C:\group9_wdl\Appointment Page\appointment.html">MAKE AN APPOINTMENT</a></li>
+            <li><a href="C:\group9_wdl\n2\consultants.html">CONSULTANT PANEL</a></li>
+            <li><a href="C:\group9_wdl\code\vision.html">VISION MISSION AND MOTTO</a></li>
+            <li><a href="C:\group9_wdl\n2\Admission.html">ADMISSION PROCEDURE</a></li>
+            <li><a href="C:/group9_wdl/nikhil/rooms%20facilities.html">ROOM FACILITIES</a></li>
+            <li><a href="C:/group9_wdl/nikhil/why%20omega%20hosp.html">WHY CHOOSE OMEGA HOSPITAL</a></li>
+            <li><a href="C:/group9_wdl/nikhil/important%20tel%20no..html">CONTACT/EMERGENCY NUMBERS</a></li>
+            <li><a href="C:\group9_wdl\n2\services.html">SERVICES</a></li>
+        </ul>
+
+    </nav>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+
+        <div class="boxa">
+
+            <img src="C:\group9_wdl\Appointment Page\app2.jpg" alt="" height="430px" width="310px">
+
+        </div>
+        <div class="boxb">
+
+
+            <h4 style="text-align: center;font-size: 25px;color: rgb(0, 0, 0);">MAKE AN APPOINTMENT </h4>
+
+
+            <div">
+
+                <form action="#">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Full Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Age">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="mail" name="" placeholder="Enter your Email Id">
+                    </div>
+                    <div class="form-group">
+                        <input type="date" name="" placeholder="Booking Date DD/MM/YYYY">
+                    </div>
+
+                    <div class="form-group">
+                        <select name="" id="">
+
+                            <option value="">DOCTORS IN THE HOSPITAL</option>
+                            <option value="">Dr. Ankit Gupta</option>
+                            <option value="">Dr. Anshul Agrawal</option>
+                            <option value="">Dr. Suryang Bhandari</option>
+                            <option value="">Dr. Palak Trivedi</option>
+                            <option value="">Dr. kailash Puri</option>
+                            <option value="">Dr. Gourav Patidar</option>
+                            <option value="">Dr. Vivek Rathore</option>
+                            <option value="">Dr. Amisha Verma</option>
+                            <option value="">Dr. Raj Khandelwal</option>
+                            <option value="">Dr. Animesh Lunia</option>
+                        </select>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Message for Doctor">
+                    </div>
+
+
+
+
+
+                    <a href="C:\group9_wdl\Appointment Page\appointment.html"
+                        style="display: block;width: 12%;margin: 10px auto;background-color: rgb(0, 0, 0);color: cornsilk;">BOOK
+                        NOW</a>
+                </form>
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+
+    <hr>
+
+
+
+    <footer>
+
+
+
+        <table id="foot">
+            <tr>
+                <th> PATIENT CARE </th>
+                <th> CENTRE OF EXCELLENCE </th>
+                <th> MEDICAL PROCEDURES </th>
+                <th> CONTACT WITH US </th>
+                <th> FOLLOW US ON </th>
+            </tr>
+            <tr>
+                <td>find a doctor</td>
+                <td>orthopaedics</td>
+                <td>proton therapy for cancer treatment</td>
+                <td>post queries</td>
+                <td><a href="https://twitter.com"><img src="C:\group9_wdl\footer images\twitter3.jpg" height="50"
+                            width="50">
+                </td></a>
+
+            </tr>
+            <tr>
+                <td>medical services</td>
+                <td>cardiology</td>
+                <td>cosmetic and plastic surgery </td>
+                <td>consult doctors online</td>
+                <td><a href="https://linkedin.com"><img src="C:\group9_wdl\footer images\in2.png" height="50"
+                            width="50"> </td>
+                </a>
+            </tr>
+            <tr>
+                <td>patient testimonials</td>
+                <td>spine surgery</td>
+                <td>bone marrow transplant</td>
+                <td>book appointment</td>
+                <td><a href="https://facebook.com"><img src="C:\group9_wdl\footer images\facebook.png" height="50"
+                            width="70">
+                </td></a>
+            </tr>
+            <tr>
+                <td>value added services</td>
+                <td>nephrology</td>
+                <td>hand microsurgery</td>
+                <td>9876XXX987</td>
+                <td><a href="https://instagram.com"><img src="C:\group9_wdl\footer images\insta.png" height="50"
+                            width="50">
+                </td></a>
+            </tr>
+
+        </table>
+
+        <h4 style="text-align: right;"><a href="#">email address: omegasupport@gmail.com</a></h4>
+        <h4 style="text-align: right;">Address : L/276A, Rd Number 12, MLA Colony, Banjara Hills, khargone,
+            Madhyapradesh,451001</h4>
+
+
+
+
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

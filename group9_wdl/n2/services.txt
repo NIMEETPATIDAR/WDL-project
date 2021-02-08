@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Services</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+ul.a {
+  list-style-position: outside;
+}
+h1
+{
+color: white;
+text-align: center; 
+font-size: 40px;
+}
+
+
+
+h2
+{
+color:#7F8581;
+text-align: center; 
+font-size: 30px;
+}
+h4
+{
+color: white;
+text-align: left; 
+font-size: 10px;
+}
+h3
+{
+color: white;
+font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+}
+
+header {
+  background-color: #61BB9B;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: #CBE4D3;
+}
+
+article {
+  padding: 10px;
+  width: 90%;
+   
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color:#437E56;
+  padding: 2px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 1000px) 
+{
+  nav, article 
+{
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+
+
+
+
+</head>
+
+
+<body>
+
+
+<header>
+<h1>Services</h1>
+</header>
+<h2>Hospitals Services</h2>
+<ul class="a">
+<img src="C:\Group9_wdl\images\services.jpg" width=350 height=150 align=right>
+
+<li>dfjkgdnAccommodation and meals at the standard ward care</li>
+<li>Proprietary hospitals. For-profit hospitals include both general and specialized hospitals, usually as part of a healthcare network like Humana or HCA, which may be corporately owned. The main objective of proprietary hospitals is to make a profit from the services provided.</li>
+<li>Nursing services, when provided by the hospital</li>
+<li>Laboratory, X-ray and diagnostic procedures, and interpretation</li>
+<li>Drugs prescribed by a physician and administered in the hospital</li>
+<li>Use of the operating room, case room, and anaesthetic facilities required for diagnosis and treatment, including necessary equipment and supplies</li>
+<li>Radiotherapy treatment, occupational therapy, and physiotherapy when provided by an insured facility</li>
+<p>Omega hospitals add a number of special and auxiliary services to the basic list</p>
+<li>Detoxification services in an approved health facility</li>
+<li>diagnosis and treatment of illness and injury</li>
+<li>surgery, including anaesthetic services and surgical assistance where necessary</li>
+<li>obstetrical care, including prenatal and postnatal care</li>
+<li>eye examinations, treatment and operations provided by an ophthalmologist </li>
+<p>Hospitals funded by state, regional, or local government, as well as charity hospitals and hospitals within research and teaching centers, are pressed by community needs to provide for the uninsured or underinsured with more basic services:</p>
+<img src="C:\Group9_wdl\images\doctor.jpg" width=350 height=150 align=right>
+
+<li>Primary care services</li>
+<li>Mental health and drug treatment</li>
+<li>Infectious disease clinics</li>
+<li>Hospice care</li>
+<li>Dental services</li>
+<li>Translation and interpreter services</li>
+</ul>
+
+
+
+
+
+
+
+
+<section>
+  
+<article>
+
+<h1>Consultants</h1>
+
+  </article>
+</section>
+
+<footer>
+<h3>Contact us</h3>
+<p>helpline number - 9876XXX987 </h4>
+<p><a href="#">email - omegasupport@gmail.com</a></h4>
+<p>Address - L/276A, Rd Number 12, MLA Colony, Banjara Hills, khargone, Madhyapradesh 500034</h4>
+</footer>
+
+
+
+
+</body>
+</html>

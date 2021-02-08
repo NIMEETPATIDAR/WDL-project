@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Consultants</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+#patients {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#patients td, #patients th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#patients tr:nth-child(even){background-color: #f2f2f2;}
+
+#patients tr:hover {background-color: #ddd;}
+
+#patients th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #166E9A;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2
+{
+color: white;
+text-align: center; 
+font-size: 40px;
+}
+h4
+{
+color: white;
+text-align: left; 
+font-size: 20px;
+}
+h3
+{
+color: white;
+font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  }
+
+header {
+  background-color: #61BB9B;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: #CBE4D3;
+
+}
+
+article {
+  padding: 10px;
+  width: 90%;
+   
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color:#437E56;
+  padding: 2px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 1000px) 
+{
+  nav, article 
+{
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+
+
+
+
+</head>
+
+
+<body>
+
+
+<header>
+<img src="C:\Group9_wdl\images\logo.png" width=150 height=130 align=left top>
+<h2>Consultants</h2>
+</header>
+
+<section>
+  
+<article>
+
+<h1>Consultants</h1>
+
+<table id="patients">
+  <tr>
+    <th>Doctor Name</th>
+    <th>Speciality</th>
+    <th>Consulting Room</th>
+  </tr>
+  <tr>
+    <td>Dr Ankit Gupta</td>
+    <td>NeuroSurgery</td>
+    <td>first floor room 2</td>
+  </tr>
+  <tr>
+    <td>Dr Anshul Agrawal</td>
+    <td>Anaesthesiology</td>
+    <td>second floor room 4</td>
+  </tr>
+  <tr>
+    <td>Dr Aviral Jain</td>
+    <td>GI and HPB surgery</td>
+    <td>first floor room 3</td>
+  </tr>
+  <tr>
+    <td>Dr Govind Gourh</td>
+    <td>ENT</td>
+    <td>first floor room 4</td>
+  </tr>
+  <tr>
+    <td>Dr Jaskeerti Pancholi</td>
+    <td>Obstetrics & Gynaecology</td>
+    <td>Third floor room 1</td>
+  </tr>
+  <tr>
+    <td>Dr Kshitij Dubey</td>
+    <td>Cardiac Surgery</td>
+    <td>second floor room 6</td>
+  </tr>
+  <tr>
+    <td>Dr Nikita Khandelwal</td>
+    <td>Pathology</td>
+    <td>first floor room 5</td>
+  </tr>
+  <tr>
+    <td>Dr Surekha Soni</td>
+    <td>Obstetrics & Gynaecology</td>
+    <td>second floor room 7</td>
+  </tr>
+  <tr>
+    <td>Dr. Ambrish Patel</td>
+    <td>ENT ,Head & Neck Surgery</td>
+    <td>Fourth floor room 9</td>
+  </tr>
+  <tr>
+    <td>Dr. Animesh Damani</td>
+    <td>Plastic Surgery</td>
+    <td>Third floor room 2</td>
+  </tr>
+</table>
+
+
+
+
+
+  </article>
+</section>
+<footer>
+<h3>Contact us</h3>
+<p>helpline number - 9876XXX987 </h4>
+<p><a href="#">email - omegasupport@gmail.com</a></h4>
+<p>Address - L/276A, Rd Number 12, MLA Colony, Banjara Hills, khargone, Madhyapradesh 500034</h4>
+</footer>
+
+
+
+
+
+
+</body>
+</html>

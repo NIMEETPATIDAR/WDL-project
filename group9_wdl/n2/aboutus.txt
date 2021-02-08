@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>About us</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h2
+{
+color: white;
+text-align: center; 
+font-size: 40px;
+}
+h4
+{
+color: white;
+text-align: left; 
+font-size: 20px;
+}
+h3
+{
+color: white;
+font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  }
+
+header {
+  background-color: #00435E;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+
+}
+
+nav {
+  float: left;
+  width: 10%;
+  height: 700px; 
+  background: #00435E;
+  padding:10px;
+}
+nav ul {
+  list-style-type: none;
+  padding:10;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 90%;
+  background-color: #F9F9F9;
+   
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #092C3A;
+  padding: 2px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 1000px) 
+{
+  nav, article 
+{
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+
+
+
+
+</head>
+
+
+<body>
+
+
+<header>
+<img src="C:\Group9_wdl\images\logo.png" width=150 height=130 align=left top>
+<img src="C:\Group9_wdl\images\omega pic.jpg" width=200 height=120 align=right top>
+<h2>About Omega Hospital</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+   <img src="C:\Group9_wdl\images\logo2.jpg" width=110 height=150 align=right top><br>
+  
+
+</ul>
+  </nav>
+  
+<article>
+<h1>About us</h1>
+About omega hospital :<br>
+State-of-the-art operation theatres, experienced anesthetic and critical care units, top-class radiology facilities including CT/PET-CT scanner, dedicated pathology and microbiology laboratory and a full-fledged medical Oncology department would cater to all the requirements of any cancer patient under one roof.<br><br>
+<img src="C:\Group9_wdl\images\ pic1.jpg" width=600 height=300 align=right top><br>
+Omega Hospitals has the latest Digital Mammography with Breast Tomosynthesis / 3D Mammography and Contrast Enhanced Mammography. This machine minimizes impact of overlapping breast tissue during imaging. It has greater accuracy in pinpointing size, shape and location of abnormalities.<br><br>
+It will avoid unnecessary biopsies or additional tests and it has more chances of finding multiple breast tumors (occur in 15% of breast cancer patients). This mammography is also equipped with a digital receptor and a computer instead of a film cassette and allows faster and accurate stereotactic biopsy in both the sitting and recumbent positions (the first of its kind in India). More importantly, this ultra-modern digital mammogram reduces the dose of radiation by 50% and also has the ability to correct under- or over-exposed films without having to repeat mammograms.<br><br> 
+
+The latest PET-CT scan machine which is being installed in the OMEGA Hospitals premises provides the best diagnostic modality to detect and stage cancer. The PET CT department is integrated with imaging and nuclear medicine departments so that online transfer of data is feasible for accurate treatment planning. 
+
+OMEGA Hospitals has the latest VMAT (Volumetric Modulated Arc Therapy), a treatment strategy for intensity-modulated radiation therapy, which increases treatment efficiency and has been now established clinically on a wide basis across the western countries. Our centre will be the second Institute in India and the first in South India to have VMAT technology.
+
+After establishing such an advanced facility in India, Omega Hospitals has acquired ROBOTIC CYBER KNIFE VSI, first of its kind in South India. Cyberknife treatments score over conventional Linear Accelerator as the cyber knife will effectively and efficiently treat patients with utmost precision and at the same time maintain a better socio economic status by completing treatment in a short time (conventional radiation will take 45 days) to complete treatment while cyber knife will finish treatment in 1 to 5 days.
+</p>
+  </article>
+</section>
+
+<footer>
+<h3>Contact us</h3>
+<p>helpline number - 9876XXX987 </h4>
+<p><a href="#">email - omegasupport@gmail.com</a></h4>
+<p>Address - L/276A, Rd Number 12, MLA Colony, Banjara Hills, khargone, Madhyapradesh 500034</h4>
+</footer>
+
+
+</body>
+</html>
